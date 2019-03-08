@@ -104,7 +104,7 @@ def ace(double[:,:] x,hz,dx):
     a=mult(xin,b)
     return(a[2][0])
 def calc(image, hz, dx):
-	img=lbl(bina(image))
-	Y=cm(img[0],img[1])
-	a=ace(Y,hz,dx)	
-	return a
+    img=lbl(bina(image))
+    Y=cm(img[0],img[1])
+    a=ace(Y,hz,dx)	
+    return a
